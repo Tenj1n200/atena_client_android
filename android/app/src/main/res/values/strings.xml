@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">atena_and</string>
+    <string name="title_activity_main">atena_and</string>
+    <string name="package_name">com.atena.agent</string>
+    <string name="custom_url_scheme">com.atena.agent</string>
+</resources>
