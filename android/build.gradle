@@ -1,7 +1,9 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+// Este arquivo NÃO deve ter "apply plugin: 'com.android.application'" nem
+// bloco "android { ... }" — isso vai só no app/build.gradle.
 
 buildscript {
-    
+
     repositories {
         google()
         mavenCentral()
@@ -21,6 +23,7 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        // Vosk resolve pelo mavenCentral() acima; jitpack não é mais necessário
     }
 }
 
